@@ -42,9 +42,12 @@ export default function LoginPanel() {
 
   return(
   <>
-    <Container  maxWidth="sm">
-    <h1 id = "welcometext">Welcome To The Curse of Brent</h1>
-    <div className =  "login-box">
+    <Container maxWidth="sm">
+    <Typography 
+    variant="h2" 
+    component="h2">
+    Welcome To The Curse of Brent
+    </Typography>
       <Paper className={classes.panel}>
         <Box >
           <Typography variant="h6" component="h6">
@@ -96,7 +99,6 @@ export default function LoginPanel() {
           </Button>
         </Box>
       </Paper>
-      </div>
     </Container>
   </>
   )
